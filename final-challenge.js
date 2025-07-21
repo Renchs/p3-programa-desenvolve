@@ -58,8 +58,6 @@ const averangeClass = () => {
   return (totalAverage / results.length).toFixed(2);
 };
 
-
-
 console.log("Studends Average:", averangeStudent());
 console.log("Count Students Aproved:", countStudentsAproved());
 console.log("Top Student:", findTopStudent());
